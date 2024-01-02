@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Számítógép alkatrészei</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="alkatresz-sablon" class="col-lg-2 col-md-6" style="display: none;">
+            <div class="card" style="width:50%; border: 4px solid rgb(255, 255, 255)">
+                <img class="card-img-top" src="" alt="Card image">
+                <div class="card-title" style="text-align:center">
+                    <span></span> Ft
+                </div>
+                <div class="card-body">
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </div>
+        <h2>Alaplap:</h2><button id="nemalaplap">Nem Kérek</button>
+        <div id="alaplap" class="row">
+
+        </div>
+        <h2>Processzor:</h2><button id="nemprocesszor">Nem Kérek</button>
+        <div id="processzor" class="row">
+
+        </div>
+        <h2>Memória:</h2><button id="nemmemoria">Nem Kérek</button>
+        <div id="memoria" class="row">
+
+        </div>
+        <h2>Grafikus kártya:</h2><button id="nemgrafikuskartya">Nem Kérek</button>
+        <div id="grafikuskartya" class="row">
+
+        </div>
+        <h2>HDD/SSD:</h2><button id="nemhddssd">Nem Kérek</button>
+        <div id="hddssd" class="row">
+
+        </div>
+        <h2>Monitor:</h2><button id="nemmonitor">Nem Kérek</button>
+        <div id="monitor" class="row">
+
+        </div>
+        <h2>Egér:</h2><button id="nemeger">Nem Kérek</button>
+        <div id="eger" class="row">
+
+        </div>
+        <h2>Billentyűzet:</h2><button id="nembillentyuzet">Nem Kérek</button>
+        <div id="billentyuzet" class="row">
+        </div>
+        <br>
+        <h1>Gépösszerakás:</h1>
+        <div class="row">
+            <div id="osszerak_alaplap" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_processzor" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_memoria" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_grafikuskartya" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_hddssd" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_monitor" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_eger" class="col-lg-2 col-md-6">
+            </div>
+            <div id="osszerak_billentyuzet" class="col-lg-2 col-md-6">
+            </div>
+        </div>
+        <br>
+        <h3>Végösszeg: </h3>
+        <div>
+            <span id="osszeg">0</span> Ft
+        </div>
+        <button type="submit" class="btn btn-primary" id="vasarlas">
+            Vásárlás
+        </button>
+        <h3>Értékelés</h3>
+        <div class="card">
+            <form>
+                <div class="mb-3">
+                    <h2>Név</h2>
+                    <input type="text" id="nev" placeholder="Név" required class="form-control">
+                </div>
+                <div class="mb-3">
+                    <h2>Vélemény</h2>
+                    <input type="text" id="szoveg" placeholder="Vélemény" required class="form-control">
+                </div>
+                <div id="csillagok">
+                    <select id="valaszt">
+                        <option value="5">★★★★★</option>
+                        <option value="4">★★★★</option>
+                        <option value="3">★★★</option>
+                        <option value="2">★★</option>
+                        <option value="1">★</option>
+                    </select>
+                </div>
+                <button id="ertekelgomb" type="button" class="btn btn-primary">Oké</button>
+            </form>
+        </div>
+        <br>
+        <h3>Értékelések:</h3>
+        <div id="velemenyek" class="flex-container">
+            <div id="velemeny" style="display: none;">
+                <h4 class="nev"></h4>
+                <h4 class="velemeny"></h4>
+                <h4 class="csillag"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="geposszerak.js"></script>
+</body>
+
+</html>
