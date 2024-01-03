@@ -1,0 +1,15 @@
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\bin\Debug\net7.0\Projekt_b.exe
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\bin\Debug\net7.0\Projekt_b.deps.json
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\bin\Debug\net7.0\Projekt_b.runtimeconfig.json
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\bin\Debug\net7.0\Projekt_b.dll
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\bin\Debug\net7.0\Projekt_b.pdb
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.csproj.AssemblyReference.cache
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.AssemblyInfoInputs.cache
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.AssemblyInfo.cs
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.csproj.CoreCompileInputs.cache
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.dll
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\refint\Projekt_b.dll
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.pdb
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\Projekt_b.genruntimeconfig.cache
+C:\Users\boros.sandor.kevin\source\repos\Projekt_b\obj\Debug\net7.0\ref\Projekt_b.dll
