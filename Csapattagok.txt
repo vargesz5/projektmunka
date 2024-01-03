@@ -1,0 +1,3 @@
+Boros Sándor Kevin: C#
+Dorogi Milán György: Html, Js, (alkatrészek összehasonlítása)
+Varga Máté: Html, Js, (gépösszerakás)
