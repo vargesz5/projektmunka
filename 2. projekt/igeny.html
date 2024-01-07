@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="igeny.css">
+  <title>Igényleadás</title>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <nav>
+      <a href="szamitogep.html">Termékek</a>
+      <a href="alaplaph.html">Termékösszehasonlítás</a>
+      <a href="igeny.html">Új termékekre való ígények</a>
+    </nav>
+  </header>
+
+  
+    <h1>Termék Igényleadás</h1>
+    <form id="demandForm">
+      <label for="productName">Termék neve:</label>
+      <input type="text" id="productName" name="productName" required>
+
+      <label for="demandDetails">Igény részletei:</label>
+      <textarea id="demandDetails" name="demandDetails" rows="4" required></textarea>
+
+      <button type="button" onclick="submitDemand()">Igény leadása</button>
+    </form>
+
+    <div class="demands-container" id="demandsContainer">
+    </div>
+  </div>
+
+  <script src="igeny.js"></script>
+</body>
+</html>

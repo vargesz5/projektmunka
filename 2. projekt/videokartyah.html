@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="hasonlitas.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Termék Árösszehasonlítás</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+        <nav>
+            <div>
+              <a href="szamitogep.html">Termékek</a>
+              <a href="alaplaph.html">Termékösszehasonlítás</a>
+              <a href="igeny.html">Új termékekre való ígények</a>
+            </div>
+            <div>
+              <label for="pageSelector">További oldalak:</label>
+              <select id="pageSelector" onchange="changePage()">
+                <option value="alaplaph.html">Alaplap</option>
+                <option value="processzorh.html">Processzor</option>
+                <option value="memoriah.html">Memória</option>
+                <option value="videokartyah.html">Grafikus kártya</option>
+                <option value="tarhelyh.html">HDD és/vagy SSD</option>
+                <option value="monitorh.html">Monitor</option>
+                <option value="egerh.html">Egér</option>
+                <option value="billentyuzeth.html">Billentyűzet</option>
+              </select>
+            </div>
+          </nav>
+    </header>
+
+    <h1>Termék Árösszehasonlítás</h1>
+
+    <label for="productList1">Termék 1:</label>
+    <select id="productList1">
+      <option value="NVIDIA GeForce GTX 1050 Ti-49150">NVIDIA GeForce GTX 1050 Ti</option>
+      <option value="NVIDIA GeForce GTX 1650-53000">NVIDIA GeForce GTX 1650</option>
+      <option value="NVIDIA GeForce RTX 2080 Ti-353300">NVIDIA GeForce RTX 2080 Ti</option>
+      <option value="NVIDIA GeForce RTX 3060 Ti-141000">NVIDIA GeForce RTX 3060 Ti</option>
+      <option value="NVIDIA GeForce RTX 4060 T-140900">NVIDIA GeForce RTX 4060 T</option>
+    </select>
+
+    <label for="productList2">Termék 2:</label>
+    <select id="productList2">
+      <option value="NVIDIA GeForce GTX 1050 Ti-49150">NVIDIA GeForce GTX 1050 Ti</option>
+      <option value="NVIDIA GeForce GTX 1650-53000">NVIDIA GeForce GTX 1650</option>
+      <option value="NVIDIA GeForce RTX 2080 Ti-353300">NVIDIA GeForce RTX 2080 Ti</option>
+      <option value="NVIDIA GeForce RTX 3060 Ti-141000">NVIDIA GeForce RTX 3060 Ti</option>
+      <option value="NVIDIA GeForce RTX 4060 T-140900">NVIDIA GeForce RTX 4060 T</option>
+    </select>
+    <button id="button" onclick="comparePrices()">Összehasonlítás</button>
+
+    <div class="result" id="result"></div>
+  </div>
+  <script src="videokartyah.js"></script>
+</body>
+</html>
